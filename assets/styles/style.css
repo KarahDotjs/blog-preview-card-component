@@ -1,0 +1,98 @@
+:root {
+  --Yellow: hsl(47, 88%, 63%);
+  --White: hsl(0, 0%, 100%);
+  --Gray-500: hsl(0, 0%, 42%);
+  --Gray-950: hsl(0, 0%, 7%);
+}
+
+@font-face {
+  font-family: Figtree;
+  src: url(https://fonts.google.com/specimen/Figtree);
+}
+
+body {
+  background-color: var(--Yellow);
+  font-family: Figtree;
+}
+
+.card-container {
+  margin: auto;
+  width: 380px;
+  padding: 30px;
+  background-color: var(--White);
+  border-radius: 10px;
+  box-shadow: 6px 3px 0px rgba(0, 0, 0, 5);
+}
+/* --- card content --- */
+.card-content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.card-content img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* --- tag --- */
+
+.tag {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.tag button {
+  font-weight: 800;
+  background-color: var(--Yellow);
+  border: none;
+  padding: 5px;
+  width: 100px;
+  border-radius: 10px;
+}
+
+/* --- foundation --- */
+
+h1 {
+  font-size: 1.25rem;
+}
+h1:hover {
+  color: var(--Yellow);
+}
+
+.foundation-bloc {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+button a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* --- profil --- */
+.profil {
+  width: 100%;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.profil h2 {
+  font-size: 0.85rem;
+  font-weight: 800;
+}
+.profil img {
+  width: 50px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 50px;
+}
+.attribution a {
+  text-decoration: none;
+  color: hsl(228, 45%, 44%);
+  font-weight: bold;
+}
