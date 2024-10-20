@@ -43,7 +43,7 @@ body {
   font-weight: 800;
   background-color: var(--Yellow);
   border: none;
-  padding: 5px;
+  padding: 6px;
   width: 6.25rem;
   border-radius: 5%;
 }
